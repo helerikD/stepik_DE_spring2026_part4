@@ -2,4 +2,4 @@ team_members = []
 with open('README.MD', "r", encoding='utf8') as f:
     for line in f.readlines():
         if line[0] == '@':
-            print(f'Hello, Dear teammate {line[1:].strip('\n')}!')
+            print(f'Hello, Dear teammate {line[1:].strip('\n')}!') #User 2 added comments to the file for conflict
